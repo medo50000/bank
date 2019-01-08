@@ -12,7 +12,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PrEfix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== '523116488861810689') return;
+  if (message.author.id !== '512337567782535168') return;
 if (message.content.startsWith(PrEfix + 'wt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
     message.channel.sendMessage(`**✅  : ${argresult}**`)
@@ -31,7 +31,7 @@ if (message.content.startsWith(PrEfix + 'st')) {
 
 
 client.on('message', message => {
-if(message.content.startsWith('c')) {
+if(message.content.startsWith('bank')) {
 if(message.author.id !== '517409391570583574') return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
@@ -39,7 +39,7 @@ message.channel.send(args);
 });
 
 client.on('message', message => {
-if(message.content.startsWith('c')) {
+if(message.content.startsWith('bank')) {
 if(message.author.id !== '468479699543130132') return;
 var args = message.content.split(' ').slice(1).join(' ');
 message.channel.send(args);
